@@ -1,0 +1,38 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the page.
+  config:
+    required: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Meta Description
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text shown just below the page title.
+- type: file
+  name: img_path
+  label: Image
+  description: The image shown below the page title and subtitle.
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: page
+  config:
+    required: true
+pages:
+- src/pages/404.md
+- src/pages/about.md
