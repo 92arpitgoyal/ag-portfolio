@@ -1,0 +1,26 @@
+{
+  "siteUrl": "https://arpitgoyal.com",
+  "header": {
+    "has_nav": true
+  },
+  "footer": {
+    "content": "",
+    "links": [
+      {
+        "text": "About",
+        "url": "/about/",
+        "new_window": false
+      },
+      {
+        "text": "Contact",
+        "url": "/contact/",
+        "new_window": false
+      }
+    ],
+    "has_social": true
+  },
+  "layout_style": "grid",
+  "palette": "blue",
+  "title": "Arpit Goyal | Engineer with an eye for design, Product Manager",
+  "description": "Hi, I'm Arpit Goyal, Engineer with an eye for design. Startup guy, UX consultant @ MTX Group Inc. | Follow this blog to read about career advice, technologies, startups, products and making money."
+}
